@@ -1,7 +1,7 @@
 import openpyxl as xl
 from openpyxl.styles import Font
 
-inventory_file = xl.load_workbook(r"F:\Devops-projects\python-projects\spreadsheet-automation\inventory.xlsx")
+inventory_file = xl.load_workbook("inventory.xlsx")
 sheet = inventory_file["Sheet1"]
 
 products_per_supplier = {}
